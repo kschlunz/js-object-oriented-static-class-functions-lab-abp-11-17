@@ -11,11 +11,9 @@ save(){
       return this._All;
     }
 
-    static FindQuestion(question){
-       return this.All().find(function(content){
-          return content;
-       })
-     }
+    static Find(id){
+      this.All()[2]
+    }
 
 }
 
