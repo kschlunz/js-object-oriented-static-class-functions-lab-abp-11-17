@@ -13,12 +13,10 @@ save(){
 
     static FindQuestion(questions){
        return this.All().filter(function(question){
-         return question.questions === question;
+         return question.find;
        })
      }
 
 }
 
 Question._All=[];
-
-let questions = "What's your favorite food?"
