@@ -10,6 +10,10 @@ save(){
       return this._All;
     }
 
+  constructor(question){
+    this.save()
+  }
+
 }
 
 Question._All=[];
