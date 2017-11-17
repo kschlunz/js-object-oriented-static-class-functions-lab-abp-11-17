@@ -20,3 +20,5 @@ save(){
 }
 
 Question._All=[];
+
+let questions = "What's your favorite food?"
