@@ -1,1 +1,4 @@
 'use strict';
+Class Question(){
+  
+}
