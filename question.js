@@ -13,7 +13,7 @@ save(){
 
     static FindQuestion(question){
        return this.All()(function(question){
-         return ;
+         return question.find();
        })
      }
 
