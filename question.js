@@ -12,7 +12,7 @@ save(){
     }
 
     static Find(id){
-      this.All()[2]
+      return this.All()[id-1]
     }
 
 }
