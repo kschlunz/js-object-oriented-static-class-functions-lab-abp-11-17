@@ -13,7 +13,7 @@ save(){
 
     static FindQuestion(question){
        return this.All().filter(function(question){
-         return question.question === quesiton;
+         return question.question === question;
        })
      }
 
